@@ -1,0 +1,48 @@
+.card{
+    /* width: 30%; */
+    height: 90vh;
+    border: 0;
+    margin:2%,auto,0,auto;
+    margin-top: 2%;
+    background-color:#FFFFFF;
+}
+img {
+    margin-top: 3%;
+    width:100%;
+    height: 83vh;
+    border-radius: 10px;
+    /* min-height:80px; */
+}
+.custom-card{
+    background-color:#FFFFFF;
+    box-shadow: none;
+}
+@media (max-width: 768px) {
+    img {
+      display: none; /* Hide the image on smaller screens */
+    }
+    .card{
+        
+        /* margin-left:15px; */
+        margin-top: 4em;
+        height: 100vh;
+        text-align: center;
+    }
+    .card-text{
+        width: 70vw;
+        text-align: center;
+        margin-left: 0;
+    }
+ }
+ .image-container {
+    position: relative;
+    display: inline-block; /* Allows the container to size based on content */
+}
+ .image-button {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
